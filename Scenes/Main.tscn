@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprite/cecihoney-background-desert-full.jpg" type="Texture" id=1]
+
+[node name="Main" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 723, 0 )
+
+[node name="Cecihoney-background-desert-full" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 280, 198 )
+texture = ExtResource( 1 )
